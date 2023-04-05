@@ -1,3 +1,27 @@
+Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente:
+
+Creational Design Patterns:
+Abstract Factory Pattern: se regăsește în fișierele Cart.js și ProductList.js, unde este folosit pentru a crea diferite tipuri de produse în funcție de parametrii de intrare.
+Factory Method Pattern: se regăsește în fișierul actions/productActions.js, unde este folosit pentru a crea diferite tipuri de acțiuni în funcție de tipul de produs.
+Structural Design Patterns:
+Adapter Pattern: se regăsește în fișierul ProductList.js, unde este folosit pentru a adapta obiectele de tip Product la formatul așteptat de componenta ProductItem.
+Decorator Pattern: se regăsește în fișierul components/Header.js, unde este folosit pentru a adăuga un background și un text deasupra header-ului principal.
+Behavioral Design Patterns:
+Observer Pattern: se regăsește în fișierul reducers/cartReducer.js, unde este folosit pentru a notifica componentele care ascultă evenimentul de schimbare a stării coșului de cumpărături.
+Strategy Pattern: se regăsește în fișierul components/Filter.js, unde este folosit pentru a alege diferite strategii de filtrare a produselor în funcție de opțiunile selectate de utilizator.
+Principii SOLID:
+Single Responsibility Principle: se regăsește în fișierul components/Header.js, unde componenta este responsabilă doar pentru afișarea unui header și nimic altceva.
+Open-Closed Principle: se regăsește în fișierul actions/productActions.js, unde adăugarea unui nou tip de produs nu necesită modificarea codului deja existent, ci doar adăugarea unei noi acțiuni de creare.
+Liskov Substitution Principle: se regăsește în fișierul Cart.js, unde clasa Cart este extinsă de clasa CartWithDiscount, respectând astfel contractul impus de clasa de bază.
+Interface Segregation Principle: nu este prezent în codul generat de mine.
+Dependency Inversion Principle: se regăsește în fișierul components/Filter.js, unde componenta primește o funcție ca și parametru, în loc să depindă direct de o implementare specifică. Aceasta permite schimbarea comportamentului de filtrare fără a modifica componenta Filter.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
