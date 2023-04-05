@@ -34,7 +34,6 @@ Dependency Inversion Principle: se regăsește în fișierul components/Filter.j
 
 Single Responsibility Principle
 În fișierul ProductItem.js, clasa ProductItem are o singură responsabilitate - afișarea detaliilor produsului și gestionarea adăugării produsului în coșul de cumpărături.
-javascriptCopy code
 const ProductItem = ({ product }) => {
   const dispatch = useDispatch();
 
@@ -60,8 +59,8 @@ const ProductItem = ({ product }) => {
       </CardActions>
     </Card>
   );
-};Add to Cart</Button> </CardActions> </Card> ); }; 
-Open-Closed Principle
+};
+
 În fișierul cartReducer.js, reducerul este închis pentru modificare și deschis pentru extensie. Mai precis, adăugarea unui nou produs în coș este făcută prin extinderea reducerului cu un nou caz în declarația sa.
 const cartReducer = (state = initialState, action) => {
   switch (action.type) {
