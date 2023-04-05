@@ -1,3 +1,6 @@
+// Dependency Inversion Principle
+// În fișierul ProductList.js, clasa ProductList depinde de o interfață ProductService, în loc să depindă de implementarea specifică a serviciului. Acest lucru permite ca serviciul să fie nlocuit în mod transparent cu o altă implementare în viitor, fără a modifica clasa ProductList.
+
 import React, { useEffect, useState } from 'react';
 import Grid from '@material-ui/core/Grid';
 import ProductItem from '../ProductItem/ProductItem';

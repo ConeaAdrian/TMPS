@@ -1,3 +1,7 @@
+// ----Single Responsibility Principle-----
+// În fișierul ProductItem.js, clasa ProductItem are o singură responsabilitate
+//  - afișarea detaliilor produsului și gestionarea adăugării produsului în coșul de cumpărături.
+
 import React from 'react';
 import { addToCart } from '../../redux/actions/cartActions';
 import { useDispatch } from 'react-redux';

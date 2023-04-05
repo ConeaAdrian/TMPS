@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from '../../components/Cart/Cart';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { Carousel } from 'react-bootstrap';
 import Header from '../../components/Header/Header';
@@ -82,7 +83,7 @@ const App = () => {
         </Row>
       <Container>
         
-
+      <Cart />
         <ProductList />
       </Container>
     </div>
