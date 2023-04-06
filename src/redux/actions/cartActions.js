@@ -23,3 +23,12 @@ export const removeFromCart = (productId) => {
     payload: productId
   };
 };
+
+export const addToPurchasedItems = (product) => ({
+  type: 'ADD_TO_PURCHASED_ITEMS',
+  payload: product,
+});
+
+
+
+
