@@ -1,3 +1,8 @@
+//Principiul I -- Interface Segregation Principle Componenta 
+// CartItem este responsabilă pentru afișarea informațiilor despre
+//  un singur produs din coș și gestionarea acțiunilor specifice produsului (schimbarea cantității, eliminarea din coș și cumpărarea produsului). Nu implementează 
+// funcționalități care ar trebui să aparțină altor componente.
+
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { removeFromCart, updateQuantity, addToPurchasedItems } from '../../redux/actions/cartActions';
