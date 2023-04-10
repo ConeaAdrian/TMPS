@@ -1,4 +1,4 @@
-Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente:
+Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente
 
 Lab.4---Behavioral Design Patterns:
 
