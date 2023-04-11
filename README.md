@@ -1,5 +1,7 @@
 Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente
 
+Comentariile spentru toate implimentarile sunt implimentate in fisierele proiectului
+
 Lab.4---Behavioral Design Patterns:
 
 Observer Pattern: se regăsește în fișierul reducers/cartReducer.js, unde este folosit pentru a notifica componentele care ascultă evenimentul de schimbare a stării coșului de cumpărături.
