@@ -72,3 +72,7 @@
     padding: 5px 10px;
     cursor: pointer;
   }
+
+  .photo-product {
+    height: 200px !important;
+  }

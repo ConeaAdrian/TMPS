@@ -10,14 +10,14 @@ import axios from 'axios';
 class ApiService {
   constructor() {
     this.apiClient = axios.create({
-      baseURL: 'https://api.escuelajs.co',
+      baseURL: 'https://fakestoreapi.com',
       timeout: 1000,
     });
   }
 
   async getProducts() {
     try {
-      const response = await this.apiClient.get('/api/v1/products');
+      const response = await this.apiClient.get('/products');
       return response.data;
     } catch (error) {
       console.error('Error fetching products:', error);
