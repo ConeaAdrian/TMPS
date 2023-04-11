@@ -33,12 +33,14 @@ Dependency Inversion Principle: se regăsește în fișierul components/Filter.j
 Sa implimentat cu ---
 
 1.	Creational Design Patterns (5):
+
 •	Singleton.   ----
 •	Factory Method.   ----
 •	Abstract Factory.  ---
 •	Builder. ---
 •	Prototype
 2.	Structural Design Patterns (7):
+
 •	Adapter.   ---
 •	Bridge --
 •	Composite.  ----
@@ -47,6 +49,7 @@ Sa implimentat cu ---
 •	Flyweight
 •	Proxy
 3.	Behavioral Design Patterns (11):
+
 •	Chain of Responsibility
 •	Command.  ----
 •	Interpreter. --
