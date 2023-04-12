@@ -1,4 +1,4 @@
-Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente
+Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente.
 
 Comentariile spentru toate implimentarile sunt implimentate in fisierele proiectului
 
