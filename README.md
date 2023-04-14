@@ -1,4 +1,6 @@
-Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente
+Din codul generat de mine, următoarele principii și pattern-uri de design sunt prezente.
+
+Comentariile spentru toate implimentarile sunt implimentate in fisierele proiectului
 
 Lab.4---Behavioral Design Patterns:
 
@@ -28,6 +30,62 @@ Liskov Substitution Principle: se regăsește în fișierul Cart.js, unde clasa 
 
 Interface Segregation Principle: nu este prezent în codul generat de mine.
 Dependency Inversion Principle: se regăsește în fișierul components/Filter.js, unde componenta primește o funcție ca și parametru, în loc să depindă direct de o implementare specifică. Aceasta permite schimbarea comportamentului de filtrare fără a modifica componenta Filter.
+
+
+Sa implimentat cu ---
+
+1.	Creational Design Patterns (5):
+
+•	Singleton.   ----
+
+•	Factory Method.   ----
+
+•	Abstract Factory.  ---
+
+•	Builder. ---
+
+•	Prototype
+
+2.	Structural Design Patterns (7):
+
+•	Adapter.   --- 
+
+•	Bridge --
+
+•	Composite.  ----
+
+•	Decorator --
+
+•	Façade.  ----
+
+•	Flyweight
+
+•	Proxy
+
+3.	Behavioral Design Patterns (11):
+
+•	Chain of Responsibility
+
+•	Command.  ----
+
+•	Interpreter. --
+
+•	Iterator.  ---
+
+•	Mediator
+
+•	Memento
+
+•	Observer.    ----
+
+•	State.  ---
+
+•	Strategy ---
+
+•	Template Method.  ---
+
+•	Visitor
+
 
 
 # Getting Started with Create React App
