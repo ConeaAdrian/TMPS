@@ -1,6 +1,34 @@
 To Do App React
 
 
+1.  Creational Design Patterns (5):
+•  Singleton.   ----
+•  Factory Method.   ----
+•  Abstract Factory.  ---
+•  Builder. ---
+•  Prototype
+2.  Structural Design Patterns (7):
+•  Adapter.   ---
+•  Bridge --
+•  Composite.  ----
+•  Decorator --
+•  Façade.  ----
+•  Flyweight
+•  Proxy
+3.  Behavioral Design Patterns (11):
+•  Chain of Responsibility
+•  Command.  ----
+•  Interpreter. --
+•  Iterator.  ---
+•  Mediator
+•  Memento
+•  Observer.    ----
+•  State.  ---
+•  Strategy ---
+•  Template Method.  ---
+•  Visitor
+
+
 SRP
 În fișierul ProductItem.js, clasa ProductItem are o singură responsabilitate afișarea detaliilor produsului și gestionarea adăugării produsului în coșul de cumpărături.
 
